@@ -13,9 +13,10 @@ GameObject:
   - component: {fileID: 8680876833935610289}
   - component: {fileID: 5340620097357854428}
   - component: {fileID: 8812917755342564128}
+  - component: {fileID: 8352341745327417765}
   m_Layer: 0
   m_Name: bola
-  m_TagString: Untagged
+  m_TagString: Bola
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -133,3 +134,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 120
   m_CollisionDetection: 0
+--- !u!114 &8352341745327417765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 625268740918580993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 756f04a8785d6de4a8a113710311fc8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isGameStarted: 0
+  velocidadBola: 10
