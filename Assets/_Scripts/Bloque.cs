@@ -8,9 +8,10 @@ public class Bloque : MonoBehaviour
 {
     public int resistencia = 1;
     public int resistencia_Adamantyum = 999;
-    public int velocidad = 1;
+    public int velocidad=1;
     public int NumeroDePelotas = 1;
     public UnityEvent AumentarPuntaje;
+    public Opciones opciones;
 
     public void OnCollisionEnter(Collision collision)
     {
@@ -24,14 +25,15 @@ public class Bloque : MonoBehaviour
     {
         Vector3 direccion = collision.contacts[0].point - transform.position;
         direccion = direccion.normalized;
-        collision.rigidbody.velocity = collision.gameObject.GetComponent<Bola>().velocidadBola * direccion;
+        collision.rigidbody.velocity = collision.gameObject.GetComponent<Bola>().opciones.velocidadBola * direccion;
         resistencia--;
     }
 
     // Start is called before the first frame update
-    void Start()
+    public virtual void Start()
     {
-        
+        velocidad = 1;
+        checarDificultad();
     }
 
     // Update is called once per frame
@@ -52,5 +54,25 @@ public class Bloque : MonoBehaviour
     public virtual void RebotarBola()
     {
 
+    }
+    public void checarDificultad()
+    {
+        if (opciones.NivelDificultad == Opciones.dificultad.normal)
+        {
+            velocidad *= 2;
+            resistencia *= 2;
+        }
+
+        if (opciones.NivelDificultad == Opciones.dificultad.facil)
+        {
+            velocidad *= 1;
+            resistencia *= 1;
+        }
+
+        if (opciones.NivelDificultad == Opciones.dificultad.dificil)
+        {
+            velocidad *= 3;
+            resistencia *= 3;
+        }
     }
 }

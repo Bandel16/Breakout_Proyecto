@@ -7,6 +7,7 @@ public class Jugador : MonoBehaviour
     [SerializeField] public int limiteX = 23;
     [SerializeField] public float VelocidadPaddle = 2f;
     Transform transforms;
+    public Opciones opciones;
     Vector3 mousePos2D;
     Vector3 mousePos3D;
     // Start is called before the first frame update
@@ -21,7 +22,7 @@ public class Jugador : MonoBehaviour
         {
             Vector3 direccion = collision.contacts[0].point - transform.position;
             direccion = direccion.normalized;
-            collision.rigidbody.velocity = collision.gameObject.GetComponent<Bola>().velocidadBola * direccion;
+            collision.rigidbody.velocity = collision.gameObject.GetComponent<Bola>().opciones.velocidadBola * direccion;
             
         }
     }

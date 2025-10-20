@@ -63,6 +63,7 @@
     <Compile Include="Assets\_Scripts\ControlBordes.cs" />
     <Compile Include="Assets\_Scripts\Jugador.cs" />
     <Compile Include="Assets\_Scriptable Objects\PuntajeAlto.cs" />
+    <Compile Include="Assets\_Scripts\CambiarVelocidadYResistencia.cs" />
     <Compile Include="Assets\_Scripts\Bloque.cs" />
     <Compile Include="Assets\_Scripts\SliderVelocidad.cs" />
     <Compile Include="Assets\_Scripts\MuestraEventos.cs" />

@@ -364,6 +364,7 @@
 "Assets/_Scripts/Bloque_Piedra.cs"
 "Assets/_Scripts/Bloque_Portal.cs"
 "Assets/_Scripts/Bola.cs"
+"Assets/_Scripts/CambiarVelocidadYResistencia.cs"
 "Assets/_Scripts/ControlBordes.cs"
 "Assets/_Scripts/DropDrowDificultad.cs"
 "Assets/_Scripts/Jugador.cs"
