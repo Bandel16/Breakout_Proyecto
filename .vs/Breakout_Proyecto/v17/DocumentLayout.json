@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scripts\\menufindenivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\menufindenivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scripts\\puntuaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\puntuaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|c:\\users\\pc23\\desktop\\repositorios\\breakout\\breakout\\breakout_proyecto\\assets\\_scripts\\bola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\bola.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scripts\\bloque_piedra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\bloque_piedra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scripts\\puntuaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\puntuaje.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scripts\\jugador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scripts\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scripts\\menufindenivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|solutionrelative:assets\\_scripts\\menufindenivel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{40C4FFF0-FF38-374A-2138-4BA9671BE57A}|Assembly-CSharp.csproj|C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\assets\\_scriptable objects\\administradordepersistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -94,20 +94,142 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Puntuaje.cs",
               "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Puntuaje.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\Puntuaje.cs",
               "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Puntuaje.cs",
               "RelativeToolTip": "Assets\\_Scripts\\Puntuaje.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABGAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAUwCcAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-08T16:13:21.842Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DropDrowDificultad.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\DropDrowDificultad.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\DropDrowDificultad.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\DropDrowDificultad.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\DropDrowDificultad.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T18:25:19.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ControlBordes.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\ControlBordes.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\ControlBordes.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\ControlBordes.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\ControlBordes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T22:44:53.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AdministradorVidas.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\AdministradorVidas.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\AdministradorVidas.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\AdministradorVidas.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\AdministradorVidas.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T20:12:35.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Opciones.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scriptable Objects\\Opciones.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scriptable Objects\\Opciones.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scriptable Objects\\Opciones.cs",
+              "RelativeToolTip": "Assets\\_Scriptable Objects\\Opciones.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T17:23:46.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bola.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bola.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bola.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bola.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bola.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T22:52:36.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Jugador.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Jugador.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Jugador.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Jugador.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Jugador.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:48:21.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bloque_Piedra.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Piedra.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bloque_Piedra.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Piedra.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bloque_Piedra.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:36:12.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bloque_Madera.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Madera.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bloque_Madera.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Madera.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bloque_Madera.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:36:22.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bloque.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bloque.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\Bloque.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-16T04:11:23.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MenuFinDeNivel.cs",
+              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\MenuFinDeNivel.cs",
+              "RelativeDocumentMoniker": "Assets\\_Scripts\\MenuFinDeNivel.cs",
+              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\MenuFinDeNivel.cs",
+              "RelativeToolTip": "Assets\\_Scripts\\MenuFinDeNivel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-19T19:55:09.7Z",
               "EditorCaption": ""
             },
             {
@@ -124,118 +246,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "DropDrowDificultad.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\DropDrowDificultad.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\DropDrowDificultad.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\DropDrowDificultad.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\DropDrowDificultad.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T18:25:19.691Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ControlBordes.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\ControlBordes.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\ControlBordes.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\ControlBordes.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\ControlBordes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T22:44:53.621Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AdministradorVidas.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\AdministradorVidas.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\AdministradorVidas.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\AdministradorVidas.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\AdministradorVidas.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwBQAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T20:12:35.979Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Opciones.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scriptable Objects\\Opciones.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scriptable Objects\\Opciones.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scriptable Objects\\Opciones.cs",
-              "RelativeToolTip": "Assets\\_Scriptable Objects\\Opciones.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T17:23:46.359Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Bola.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bola.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bola.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bola.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Bola.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-17T22:52:36.916Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Jugador.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Jugador.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Jugador.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Jugador.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Jugador.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAwwD8AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T04:48:21.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Bloque_Piedra.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Piedra.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bloque_Piedra.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Piedra.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Bloque_Piedra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T04:36:12.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bloque_Madera.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Madera.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bloque_Madera.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque_Madera.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Bloque_Madera.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T04:36:22.893Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Bloque.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\Bloque.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\Bloque.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\Bloque.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T04:11:23.816Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 20,
               "Title": "MenuPausa.cs",
               "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\MenuPausa.cs",
@@ -248,19 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MenuFinDeNivel.cs",
-              "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\MenuFinDeNivel.cs",
-              "RelativeDocumentMoniker": "Assets\\_Scripts\\MenuFinDeNivel.cs",
-              "ToolTip": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\MenuFinDeNivel.cs",
-              "RelativeToolTip": "Assets\\_Scripts\\MenuFinDeNivel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-19T19:55:09.7Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MenuFinDeJuego.cs",
               "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\MenuFinDeJuego.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\MenuFinDeJuego.cs",
@@ -272,7 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AdministradorBloques.cs",
               "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\AdministradorBloques.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\AdministradorBloques.cs",
@@ -284,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "CambiarVelocidadYResistencia.cs",
               "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\CambiarVelocidadYResistencia.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\CambiarVelocidadYResistencia.cs",
@@ -296,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "MenuPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\pc23\\Desktop\\Repositorios\\Breakout\\Breakout\\Breakout_Proyecto\\Assets\\_Scripts\\MenuPrincipal.cs",
               "RelativeDocumentMoniker": "Assets\\_Scripts\\MenuPrincipal.cs",
