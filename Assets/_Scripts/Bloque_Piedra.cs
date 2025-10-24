@@ -4,10 +4,23 @@ using UnityEngine;
 
 public class Bloque_Piedra : Bloque
 {
+
+  
     // Start is called before the first frame update
-    void Start()
+    public  override void Start()
     {
-        resistencia = 5;
+        resistencia = 3;
+        checarDificultad();
+    }
+   
+
+    private void Update()
+    {
+        if (resistencia<= 0)
+        {
+            AumentarPuntaje.Invoke();
+            Destroy(this.gameObject);
+        }
     }
 
     // Update is called once per frame
@@ -15,4 +28,6 @@ public class Bloque_Piedra : Bloque
     {
         base.RebotarBola(collision);
     }
+
+   
 }

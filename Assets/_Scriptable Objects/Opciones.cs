@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using JetBrains.Annotations;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Opciones", menuName ="Herramientas/Opciones", order = 1)]
@@ -22,7 +23,12 @@ public class Opciones : PuntajePersistente
 
     public void CambiarDificultad(int nuevaDificultad)
     {
-        NivelDificultad=(dificultad)nuevaDificultad;
+        NivelDificultad = (dificultad)nuevaDificultad;
+    }
+
+    public void start()
+    {
+        NivelDificultad=dificultad.facil;
     }
 }
 

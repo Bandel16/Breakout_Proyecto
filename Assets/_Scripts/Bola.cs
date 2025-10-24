@@ -6,12 +6,12 @@ using UnityEngine.Events;
 public class Bola : MonoBehaviour
 {
     public bool isGameStarted = false;
-    [SerializeField] public float velocidadBola = 10.00f;
     Vector3 ultimaposicion = Vector3.zero;
     Vector3 direccion = Vector3.zero;
     Rigidbody rigidbody;
     private ControlBordes control;
     public UnityEvent BolaDestruida= new UnityEvent();
+    public Opciones opciones;
 
     private void Awake()
     {
@@ -35,7 +35,7 @@ public class Bola : MonoBehaviour
             {
                 isGameStarted = true;
                 this.transform.SetParent(null);
-                GetComponent<Rigidbody>().velocity = Vector3.up*velocidadBola;
+                GetComponent<Rigidbody>().velocity = Vector3.up* opciones.velocidadBola;
             }
         }
         if (control.salioAbajo)
@@ -49,7 +49,7 @@ public class Bola : MonoBehaviour
             Debug.Log("La bola toco el borde superior");
             direccion.y *=-1;
             direccion = direccion.normalized;
-            rigidbody.velocity=velocidadBola*direccion;
+            rigidbody.velocity=opciones.velocidadBola*direccion;
             control.salioArriba = false;
             control.enabled = false;
             Invoke("HabilitarControl", 0.5f);
@@ -61,7 +61,7 @@ public class Bola : MonoBehaviour
             Debug.Log("La bola toco el borde derecho");
             direccion.x *= -1;
             direccion = direccion.normalized;
-            rigidbody.velocity = velocidadBola * direccion;
+            rigidbody.velocity = opciones.velocidadBola * direccion;
             control.salioDerecha = false;
             control.enabled = false;
             Invoke("HabilitarControl", 0.5f);
@@ -73,7 +73,7 @@ public class Bola : MonoBehaviour
             Debug.Log("La bola toco el borde izquierdo");
             direccion.x *= -1;
             direccion = direccion.normalized;
-            rigidbody.velocity = velocidadBola * direccion;
+            rigidbody.velocity = opciones.velocidadBola * direccion;
             control.salioIzquierda = false;
             control.enabled = false;
             Invoke("HabilitarControl", 0.5f);
@@ -94,4 +94,26 @@ public class Bola : MonoBehaviour
         if(direccion!=Vector3.zero) direccion=Vector3.zero;
     }
 
+    public void checarVelocidad()
+    {
+        if (opciones.NivelDificultad == Opciones.dificultad.normal)
+        {
+            opciones.velocidadBola *= 2f;
+
+        }
+
+        if (opciones.NivelDificultad == Opciones.dificultad.facil)
+        {
+            opciones.velocidadBola *= 1f;
+
+        }
+
+        if (opciones.NivelDificultad == Opciones.dificultad.dificil)
+        {
+            opciones.velocidadBola *= 3f;
+
+        }
+
+
+    }
 }
